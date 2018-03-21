@@ -34,3 +34,8 @@ function removeElementFromBeginningOfArray(cats){
   cats.slice(1);
   return cats;
 }
+
+function destructivelyRemoveElementFromEndOfArray(cats){
+  cats.push();
+  return cats;
+}
