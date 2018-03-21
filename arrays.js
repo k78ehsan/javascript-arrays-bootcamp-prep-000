@@ -36,6 +36,6 @@ function removeElementFromBeginningOfArray(cats){
 }
 
 function destructivelyRemoveElementFromEndOfArray(cats){
-  cats.push();
+  cats.pop();
   return cats;
 }
