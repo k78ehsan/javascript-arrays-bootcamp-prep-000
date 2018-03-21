@@ -9,7 +9,3 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, bar){
   destructivelyAddElementToBeginningOfArray.unshift(bar);
   return myArray;
 }
-
-
-
- 
