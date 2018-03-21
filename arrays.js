@@ -9,3 +9,13 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, bar){
      chocolateBars = [bar, ...chocolateBars];
   return chocolateBars;
 }
+
+function addElementToEndOfArray(chocolateBars, bar){
+  newchocolateBars = [chocolateBars..., bar];
+  return newchocolateBars;
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, bar){
+     chocolateBars = [chocolateBars..., bar];
+  return chocolateBars;
+}
