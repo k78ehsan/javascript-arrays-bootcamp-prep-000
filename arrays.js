@@ -28,3 +28,9 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift();
   return chocolateBars;
 }
+
+var cats = ["Milo", "Garfield", "Otis"]
+function removeElementFromBeginningOfArray(cats){
+  cats.slice(1);
+  return cats;
+}
