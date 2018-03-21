@@ -11,11 +11,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, bar){
 }
 
 function addElementToEndOfArray(chocolateBars, bar){
-  newchocolateBars = [chocolateBars..., bar];
+  newchocolateBars = [...chocolateBars, bar];
   return newchocolateBars;
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, bar){
-     chocolateBars = [chocolateBars..., bar];
+     chocolateBars = [...chocolateBars, bar];
   return chocolateBars;
 }
